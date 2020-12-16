@@ -20,41 +20,42 @@ const ButtonJ = document.getElementById("Button-J");
 const ButtonK = document.getElementById("Button-K");
 const ButtonL = document.getElementById("Button-L");
 
-ButtonA.addEventListener("click", () => {
-    console.log("test");
+
+ButtonA.addEventListener("keydown", (event) => {
+    console.log("test")
     AudioBoom.play();
+
 });
 
-ButtonS.addEventListener("click", () => {
-    console.log("test");
+ButtonS.addEventListener("keydown", (event) => {
     AudioClap.play();
 });
 
-ButtonD.addEventListener("click", () => {
+ButtonD.addEventListener("keydown", (event) => {
     AudioHihat.play();
 });
 
-ButtonF.addEventListener("click", () => {
+ButtonF.addEventListener("keydown", (event) => {
     AudioKick.play();
 });
 
-ButtonG.addEventListener("click", () => {
+ButtonG.addEventListener("keydown", (event) => {
     AudioOpenhat.play();
 });
 
-ButtonH.addEventListener("click", () => {
+ButtonH.addEventListener("keydown", (event) => {
     AudioRide.play();
 });
 
-ButtonJ.addEventListener("click", () => {
+ButtonJ.addEventListener("keydown", (event) => {
     AudioSnare.play();
 });
 
-ButtonK.addEventListener("click", () => {
+ButtonK.addEventListener("keydown", (event) => {
     AudioTink.play();
 });
 
-ButtonL.addEventListener("click", () => {
+ButtonL.addEventListener("keydown", (event) => {
     AudioTom.play();
 });
 
