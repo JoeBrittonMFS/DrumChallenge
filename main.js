@@ -24,8 +24,15 @@ const ButtonL = document.getElementById("Button-L");
 document.addEventListener("keydown", (event) => {
     if (event.which == 65) {
         AudioBoom.play();
+        changeColourFunction();
     }
 });
+function changeColourFunction() {
+    while (event == true) {
+        document.getElementById("Button-A").style.backgroundColor = "red";
+    }
+    
+}
 
 
 document.addEventListener("keydown", (event) => {
