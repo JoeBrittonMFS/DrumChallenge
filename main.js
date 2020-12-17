@@ -21,41 +21,58 @@ const ButtonK = document.getElementById("Button-K");
 const ButtonL = document.getElementById("Button-L");
 
 
-ButtonA.addEventListener("keydown", (event) => {
-    console.log("test")
-    AudioBoom.play();
-
+document.addEventListener("keydown", (event) => {
+    if (event.which == 65) {
+        AudioBoom.play();
+    }
 });
 
-ButtonS.addEventListener("keydown", (event) => {
-    AudioClap.play();
+
+document.addEventListener("keydown", (event) => {
+    if (event.which == 83) {
+        AudioClap.play();
+    }
 });
 
-ButtonD.addEventListener("keydown", (event) => {
-    AudioHihat.play();
+document.addEventListener("keydown", (event) => {
+    if (event.which == 68) {
+        AudioHihat.play();
+    }
 });
 
-ButtonF.addEventListener("keydown", (event) => {
-    AudioKick.play();
+document.addEventListener("keydown", (event) => {
+    if (event.which == 70) {
+        AudioKick.play();
+    }
 });
 
-ButtonG.addEventListener("keydown", (event) => {
-    AudioOpenhat.play();
+document.addEventListener("keydown", (event) => {
+    if (event.which == 71) {
+        AudioOpenhat.play();
+    }
 });
 
-ButtonH.addEventListener("keydown", (event) => {
-    AudioRide.play();
+document.addEventListener("keydown", (event) => {
+    if (event.which == 72) {
+        AudioRide.play();
+    }
 });
 
-ButtonJ.addEventListener("keydown", (event) => {
-    AudioSnare.play();
+document.addEventListener("keydown", (event) => {
+    if (event.which == 74) {
+        AudioSnare.play();
+    }
 });
 
-ButtonK.addEventListener("keydown", (event) => {
-    AudioTink.play();
+document.addEventListener("keydown", (event) => {
+    if (event.which == 75) {
+        AudioTink.play();
+    }
 });
 
-ButtonL.addEventListener("keydown", (event) => {
-    AudioTom.play();
+document.addEventListener("keydown", (event) => {
+    if (event.which == 76) {
+        AudioTom.play();
+    }
 });
 
